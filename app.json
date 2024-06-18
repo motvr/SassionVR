@@ -1,0 +1,52 @@
+{
+  "name": "SESSION VR",
+  "description": "بوت استـخراج جلـسات بايـروجرام وتريمكس للتليثون والميوزك.",
+  "logo": "https://graph.org/file/95648e7a67525895cc50f.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/motvr/SassionVR.git",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لا تغيير هذة القيمة",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ضع الـ Api id احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": "25611385"
+    },
+    "API_HASH": {
+      "description": "ضع Api hash احصل علية من my.telegram.org/apps.",
+      "required": true,
+      "value": "554bd8ef864e807884fe9ba48536e6b2"
+    },
+    "OWNER_ID": {
+      "description": "ضع ايدي مالك البوت",
+      "required": true,
+      "value": "5529899678"
+    },
+    "MONGO_DB_URI": {
+      "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
+      "required": true,
+      "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority"
+    },
+    "MUST_JOIN": {
+      "description": "ضع يوزر جروب للبوت.(without @)",
+      "required": true,
+      "value": "@Jaithon"
+    },
+    "BOT_TOKEN": {
+      "description": "ارسل توكن البوت احصل علية من @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
