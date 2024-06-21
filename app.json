@@ -31,12 +31,12 @@
     "OWNER_ID": {
       "description": "ضع ايدي مالك البوت",
       "required": true,
-      "value": "5529899678"
+      "value": "6424121052"
     },
     "MONGO_DB_URI": {
       "description": "ضع كود مونجو احصل علية من cloud.mongodb.com",
       "required": true,
-      "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority"
+      "value": "mongodb+srv://MRVR:MRVR@cluster0.dnxev2y.mongodb.net/?retryWrites=true&w=majority"
     },
     "MUST_JOIN": {
       "description": "ضع يوزر جروب للبوت.(without @)",
