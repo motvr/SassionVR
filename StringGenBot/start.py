@@ -26,10 +26,10 @@ async def start(bot: Client, msg: Message):
                 ],
                 [
                     InlineKeyboardButton("𝙈𝙔➠𝙒𝙊𝙍𝙇𝘿", url="https://t.me/Jecthon"),
-                    InlineKeyboardButton("𓏺𝗦𝗼𝘂𝗿𝗰𝗲➠𝗩𝗥 ", url="https://t.me/Jaithon")
+                    InlineKeyboardButton("𝗦𝗼𝘂𝗿𝗰𝗲➠𝗩𝗥 ", url="https://t.me/Jaithon")
                 ],
                 [
-                    InlineKeyboardButton("𓏺❝ 𝘿𝙑➠𝗩𝗥 ❞", user_id=5529899678)
+                    InlineKeyboardButton("❝ 𝘿𝙑➠𝗩𝗥 ❞", user_id=6424121052)
                 ]
             ]
         ),
